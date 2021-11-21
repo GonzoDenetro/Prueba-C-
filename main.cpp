@@ -1,6 +1,10 @@
 #include <windows.h>
 #include "miniwin.h"
+#include <string.h>  
+#include <string>
+#include <sstream>
 
+using namespace std;
 using namespace miniwin;
 
 
@@ -661,6 +665,132 @@ void Carne(Coordenadas Meat){
 	rectangulo_lleno(Meat.x1 + 4, Meat.y1 + 4, Meat.x1 + 8, Meat.y1 + 8);
 }
 
+void Food1(Coordenadas Comida1){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida1.x1, Comida1.y1, 4);
+}
+
+void Food2(Coordenadas Comida2){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida2.x1, Comida2.y1, 4);
+}
+void Food3(Coordenadas Comida3){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida3.x1, Comida3.y1, 4);
+}
+void Food4(Coordenadas Comida4){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida4.x1, Comida4.y1, 4);
+}
+void Food5(Coordenadas Comida5){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida5.x1, Comida5.y1, 4);
+}
+void Food6(Coordenadas Comida6){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida6.x1, Comida6.y1, 4);
+}
+void Food7(Coordenadas Comida7){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida7.x1, Comida7.y1, 4);
+}
+void Food8(Coordenadas Comida8){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida8.x1, Comida8.y1, 4);
+}
+void Food9(Coordenadas Comida9){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida9.x1, Comida9.y1, 4);
+}
+void Food10(Coordenadas Comida10){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida10.x1, Comida10.y1, 4);
+}
+void Food11(Coordenadas Comida11){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida11.x1, Comida11.y1, 4);
+}
+
+void Food12(Coordenadas Comida12){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida12.x1, Comida12.y1, 4);
+}
+void Food13(Coordenadas Comida13){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida13.x1, Comida13.y1, 4);
+}
+void Food14(Coordenadas Comida14){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida14.x1, Comida14.y1, 4);
+}
+void Food15(Coordenadas Comida15){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida15.x1, Comida15.y1, 4);
+}
+void Food16(Coordenadas Comida16){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida16.x1, Comida16.y1, 4);
+}
+void Food17(Coordenadas Comida17){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida17.x1, Comida17.y1, 4);
+}
+void Food18(Coordenadas Comida18){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida18.x1, Comida18.y1, 4);
+}
+void Food19(Coordenadas Comida19){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida19.x1, Comida19.y1, 4);
+}
+void Food20(Coordenadas Comida20){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida20.x1, Comida20.y1, 4);
+}
+void Food21(Coordenadas Comida21){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida21.x1, Comida21.y1, 4);
+}
+
+void Food22(Coordenadas Comida22){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida22.x1, Comida22.y1, 4);
+}
+void Food23(Coordenadas Comida23){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida23.x1, Comida23.y1, 4);
+}
+void Food24(Coordenadas Comida24){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida24.x1, Comida24.y1, 4);
+}
+void Food25(Coordenadas Comida25){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida25.x1, Comida25.y1, 4);
+}
+void Food26(Coordenadas Comida26){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida26.x1, Comida26.y1, 4);
+}
+void Food27(Coordenadas Comida27){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida27.x1, Comida27.y1, 4);
+}
+void Food28(Coordenadas Comida28){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida28.x1, Comida28.y1, 4);
+}
+void Food29(Coordenadas Comida29){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comida29.x1, Comida29.y1, 4);
+}
+
+void Food(Coordenadas Comidita){
+	color_rgb(10, 147, 150);
+	circulo_lleno(Comidita.x1, Comidita.y1, 4);
+}
+
+//FUNCION PARA PINTAR VENTANA
 void pintarVentana(){
 	vredimensiona(1000, 600); //Dimensionar ventana
 	color_rgb(255, 255, 255);
@@ -714,6 +844,40 @@ void moverAdelante(Coordenadas Villano, Coordenadas Figurin){
 	}
 }
 
+
+//FUNCION DE COMIDA
+void pintarComidita(int max, int xi){ 
+		for(int i = 0; i < max; i++){
+			Coordenadas Comidita = {xi, 120};
+			Food(Comidita);
+			xi = xi + 120;
+		}
+		espera(250);
+}
+
+//FUNCION PARA PINTAR PUNTUACION
+void pintarPuntuacion(int num){
+	string str;
+	stringstream ss;  
+  	ss << num;  
+  	ss >> str;
+	color(ROJO);
+	texto(850, 10, "Puntuación:");
+	color(ROJO);
+	texto(930, 10, str);
+}
+//FUNCION PARA PINTAR VIDA
+void pintarVida(int num){
+	string str;
+	stringstream ss;  
+  	ss << num;  
+  	ss >> str;
+	color(ROJO);
+	texto(750, 10, "Vidas:");
+	color(ROJO);
+	texto(795, 10, str);
+}
+
 /*int moverAdelante(int x, int xmax){
 	if(x < xmax){
 		x = x + 1;
@@ -749,6 +913,11 @@ int main(){
 	int tecla_actual;
 	int y;
 	int x;
+	int maxComida = 10;
+	int xinicialComida = 240;
+	int vidas = 1;
+	int puntaje = 0;
+	
 	vredimensiona(1000, 600); //Dimensionar ventana
 	color_rgb(255, 255, 255);
 	rectangulo_lleno(0, 0, 1000, 600);
@@ -759,16 +928,23 @@ int main(){
 	Coordenadas Villano = {450, 154};
 	Malo(Villano);
 	
-	
+	pintarPuntuacion(puntaje);
+	pintarVida(vidas);
 	Coordenadas Meat = {510, 404};
 	Carne(Meat);
+		
+	
+	Coordenadas Comidita = {xinicialComida, 120};
+	pintarComidita(maxComida, xinicialComida);
+	
 	/*Coordenadas Food = {50, 10};
 	paintAllFood();*/
 	
 	/* color_rgb(0, 180, 216);
 	circulo_lleno(x, y, 20); */
 	
-
+	
+	
 	
 	tecla_actual = int(ARRIBA);
 	refresca();
@@ -831,8 +1007,26 @@ int main(){
 		}*/
 		
 		
+		if(Figurin.x1 + 120 >= Comidita.x1 && Figurin.x1 + 120 < Comidita.x1 + 6 ){
+				maxComida = maxComida ;
+				xinicialComida = xinicialComida + 120;
+				puntaje = puntaje + 10;
+				
+				borra();
+				pintarVentana();
+				pintarMalos(450, 154);
+				figura(Figurin);
+				pintarPuntuacion(puntaje);
+				Coordenadas Meat = {510, 404};
+				Carne(Meat);
+				pintarComidita(maxComida, xinicialComida);		
+				tecla_actual = tecla();
+				color_rgb(238, 155, 0);
+				circulo_lleno(400, 250, 5);
+			}
+			
 		if(tecla_actual == int(DERECHA)){
-			if(Figurin.x1 >= 980){
+			if(Figurin.x1 + 130 >= 980){
 				Figurin.x1 = 980;
 			}
 			else {			
@@ -841,12 +1035,10 @@ int main(){
 				pintarVentana();
 				pintarMalos(450, 154);
 				figura(Figurin);
-				
+				pintarPuntuacion(puntaje);
 				Coordenadas Meat = {510, 404};
 				Carne(Meat);
-				
-				
-				
+				pintarComidita(maxComida, xinicialComida);		
 				tecla_actual = tecla();
 			}	
 			/*if(Villano.x1 < 350){
@@ -875,10 +1067,10 @@ int main(){
 				borra();
 				pintarVentana();
 				pintarMalos(450, 154);
-				
+				pintarPuntuacion(puntaje);
 				Coordenadas Meat = {510, 404};
 				Carne(Meat);
-				
+				pintarComidita(maxComida, xinicialComida);
 				figura(Figurin);
 				tecla_actual = tecla();
 			}
@@ -918,16 +1110,16 @@ int main(){
 			else {
 				Figurin.y1 = Figurin.y1 - 8;
 			
-			borra();
-			pintarVentana();
-			pintarMalos(450, 154);
-			
-			Coordenadas Meat = {510, 404};
-			Carne(Meat);
-			
-			figura(Figurin);
-			tecla_actual = tecla();
-			}
+				borra();
+				pintarVentana();
+				pintarMalos(450, 154);
+				pintarPuntuacion(puntaje);
+				Coordenadas Meat = {510, 404};
+				Carne(Meat);
+				pintarComidita(maxComida, xinicialComida);
+				figura(Figurin);
+				tecla_actual = tecla();
+				}
 		}
 		
 		else if(tecla_actual == int(ABAJO)){
@@ -936,15 +1128,15 @@ int main(){
 			borra();
 			pintarVentana();
 			pintarMalos(450, 154);
-			
+			pintarPuntuacion(puntaje);
 			Coordenadas Meat = {510, 404};
 			Carne(Meat);
-			
+			pintarComidita(maxComida, xinicialComida);
 			figura(Figurin);
 			tecla_actual = tecla();
 		}
 		
-		if(Figurin.x1 + 160 >= Villano.x1 && Figurin.y1 <= Villano.y1){
+		if(Figurin.x1 + 130 >= Villano.x1 &&  Figurin.x1 + 130 < Villano.x1 + 30 && Figurin.y1 < Villano.y1 + 40 && Figurin.y1 > Villano.y1 -20){
 			mensaje("Perdiste");
 			Figurin.x1 = 10;
 			Figurin.y1 = 40;
@@ -958,6 +1150,12 @@ int main(){
 			figura(Figurin);
 			tecla_actual = tecla();
 		}
+		
+		
+		/*if(Figurin.x1 + 120 >= Comidita.x1 && Figurin.x1 + 120 < Comidita.x1 + 8 ){
+				color_rgb(238, 155, 0);
+				circulo_lleno(400, 250, 5);
+			}*/
 		
 		/*if(Figurin.x1 + 160 > Meat.x1 && Figurin.y1 + 40 >= Meat.y1 || Figurin.y1 == Meat.y1 + 14){
 			mensaje("Perdiste");
